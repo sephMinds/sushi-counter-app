@@ -1,0 +1,83 @@
+
+@font-face{
+	src: url("JapanBento.otf");
+	font-family: JapanBento;
+}
+
+body{
+	text-align: center;
+	background-image: url("./images/sushiConveyorBelt.jpeg");
+	background-size: cover;
+	font-family: JapanBento;
+	min-height: 525px;
+	max-width: 70%;
+	color: white;
+	margin: 60px auto 0;
+}
+
+h1,h2,p {
+	color: black;
+	text-shadow: 0 0 3px darkred;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}	
+
+#main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#increment-btn{
+	background: darkred;
+}
+
+
+#save-btn{
+	background: darkgreen;
+}
+
+#reset-btn{
+	background: darkblue;
+}
+
+p{
+	color: black;
+    padding: 10px 10px;
+    font-weight: bold;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#save-el{
+    background-color: yellow;
+}
+
+#total-count-el{
+	margin-top: 5px;
+	background-color: orange;
+	width: 150px;
+	font-weight: bolder;
+	text-align: left;
+}
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
